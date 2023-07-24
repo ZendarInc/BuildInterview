@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
+# Show output
 set -x
+
+# Exit on error.
+set -e
 
 # Check python tests
 cd python
