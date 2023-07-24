@@ -1,4 +1,3 @@
-#pragma once
 #include "convex_polygon.h"
 #include <set>
 #include <map>
