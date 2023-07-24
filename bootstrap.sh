@@ -24,4 +24,11 @@ cd ..
 cd python/tests
 python3 -m unittest discover
 rm *.so
+cd ../..
 
+# Invoke the cli:
+cp build/cpp/*.so python/bin
+cd python/bin
+python3 make_ellipse.py -X 35 -Y 20 -A 30 -x 0.5 -y 0.5
+rm *.so
+cd ../..
