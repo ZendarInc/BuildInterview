@@ -12,7 +12,6 @@ python3 -m unittest discover
 cd ..
 
 # Build cpp code
-git submodule update --init
 mkdir -p build
 cd build
 cmake ..
