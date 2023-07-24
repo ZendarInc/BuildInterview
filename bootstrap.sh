@@ -13,7 +13,7 @@ cd ..
 
 # Build cpp code
 git submodule update --init
-mkdir build
+mkdir -p build
 cd build
 cmake ..
 make -j4
