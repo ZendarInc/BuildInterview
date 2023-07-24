@@ -1,0 +1,3 @@
+The challenge here is simple: Make the alterations to this repo
+necessary so that `bootstrap.sh` produces good output, which should
+be some ASCII art of an ellipse.
