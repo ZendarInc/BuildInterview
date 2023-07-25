@@ -1,3 +1,13 @@
-The challenge here is simple: Make the alterations to this repo
-necessary so that `bootstrap.sh` produces good output, which should
-be some ASCII art of an ellipse.
+Challenges:
+
+1. Make the alterations to this repo necessary so that `bootstrap.sh` produces 
+   good output, which should be some ASCII art of an ellipse.
+
+2. The `python/bin/make_ellipse.py` program requires too many input variables to 
+   be invoked correctly (see `bootstrap.sh` for example usage).  Change the 
+   input to this program such that it takes a `.yaml` file as an input instead.
+
+3. We want to build a docker image for this ellipse renderer so that it can be 
+   easily shared with others. Make alterations to the `Dockerfile` so that it
+   successfully builds the image. NOTE: The docker image should contain only
+   the necessary files for `bootstrap.sh` to run with good output.
