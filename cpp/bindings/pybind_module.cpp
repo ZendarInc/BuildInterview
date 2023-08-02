@@ -55,7 +55,7 @@ PYBIND11_MODULE(ascii_shapes, m) {
     .def("trim_inner", &Pixel::trim_inner)
     .def_property("poly", &Pixel::poly, nullptr);
 
-  py::class_<Pixel>(m_pixel_ellipse, "Ellipse")
+  py::class_<Ellipse>(m_pixel_ellipse, "Ellipse")
     .def(py::init<double, double, double, const Vector2d&>())
     .def("y_determinant", &Ellipse::y_determinant)
     .def("solve_y", &Ellipse::solve_y)

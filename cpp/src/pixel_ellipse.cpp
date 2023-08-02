@@ -33,6 +33,7 @@ void Pixel::trim_outer(const Point2d& p0, const Point2d& p1, bool reversed)
   } else {
     if (area < 0) {
       swap = true;
+    }
   }
 
   if (swap)
